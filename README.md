@@ -1,7 +1,8 @@
 python subfuz.py -l list.txt -w subdomain_megalist.txt  -all  -t 1000 -o palman.txt
 
+python subfuz.py -l list.txt -w subdomain_megalist.txt -fsd --deep -t 1000 -o palman.txt
 
-
+python subfuz.py -l list.txt -w subdomain_megalist.txt  -deep subdomain_megalist.txt -t 1000 -o test1000.txt  أظن هذا الافضل
 # SubFuz - A Subdomain Fuzzer
 SubFuz is a fuzzing tool used for enumerating subdomains through multiple methods. 
 This tool has various buildt in enumeration methods, at the same time as plugin support to enrich your result from different 3rd party sources. SubFuz accepts internationalized domain name (IDN) allowing you to scan domains like  пример.example, 例.example, мысал.example - as well as use UTF-8 based words in your fuzzing dictionary.
